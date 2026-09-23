@@ -46,4 +46,7 @@ public class Direccion
     public String getProvincia(){
         return this.provincia ;
     }
+    public void setProvincia(String provincia) {
+        this.provincia = provincia;
+    }
 }

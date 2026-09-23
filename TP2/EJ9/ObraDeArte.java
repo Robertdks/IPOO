@@ -11,6 +11,7 @@ public class ObraDeArte
     private String titulo ;
     private Persona autor ;
     private String tipoDeObra ;
+    private int anioCreacion;
     /**
      * Constructor for objects of class obraDeArte
      */
@@ -42,5 +43,11 @@ public class ObraDeArte
     }
     public void setAutor(Persona autor){
         this.autor = autor ;
+    }
+    public int getAnioCreacion() {
+        return this.anioCreacion;
+    }
+    public void setAnioCreacion(int anioCreacion) {
+        this.anioCreacion = anioCreacion;
     }
 }

@@ -12,6 +12,7 @@ public class Visita
     private Date fecha ;
     private Persona visitante ;
     private ObraDeArte obraDestacada ;
+    private Museo museo;
     /**
      * Constructor for objects of class Visita
      */
@@ -44,5 +45,10 @@ public class Visita
     public void setObraDestacada(ObraDeArte obraDeArte){
         this.obraDestacada = obraDeArte ;
     }
-    
+    public Museo getMuseo() {
+        return this.museo;
+    }
+    public void setMuseo(Museo museo) {
+        this.museo = museo;
+    }
 }
